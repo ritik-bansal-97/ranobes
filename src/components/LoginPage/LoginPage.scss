@@ -1,0 +1,62 @@
+.loginContainer{
+    display: flex;
+    flex-direction: column;
+    color: azure;
+    align-items: baseline;
+}
+
+.inputInput{
+    display: inline-block;
+    width: 100%;
+    height: 40px;
+    line-height: 22px;
+    padding: 8px 15px;
+    vertical-align: middle;
+    border-radius: 4px;
+    background: #343434bf;
+    border: 1px solid #313131;
+    -webkit-transition: border .2s linear 0;
+    transition: border .2s linear 0;
+    box-shadow: inset 0 1px 4px 0 rgba(0, 0, 0, .06);
+    -webkit-box-shadow: inset 0 1px 4px 0 rgba(0, 0, 0, .06);
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.loginButton{
+    display: flex;
+    vertical-align: middle;
+    width: fit-content;
+    height: 40px;
+    font-size: 14px;
+    border-radius: 20px;
+    line-height: 20px;
+    color: #efefef;
+    padding: 10px 15px;
+    padding-top: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.14);
+    background-color: #626262;
+    box-sizing: border-box;
+    margin-top: 24px;
+}
+.textSecondary{
+    color: #fff;
+    font-size: 14px;
+}
+.flex{
+    display: flex;
+}
+.alignCenter{
+    align-items: center;
+}
+.marginTop8{
+    margin-top: 16px;
+}
+.width100Per{
+    width: 100%;
+}
+.justifyBetween {
+    justify-content: space-between;
+}

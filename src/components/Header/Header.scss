@@ -1,0 +1,132 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    background-color: #474747;
+    color: #fff;
+    border-bottom: 2px solid #ffffff33;
+}
+.flex{
+    display: flex;
+}
+.alignCenter{
+    align-items: center;
+}
+.button{
+    border-left: 1px solid grey;
+    padding-left: 8px;
+}
+.marginLeft8{
+    margin-left: 8px;
+}
+.marginRight16{
+    margin-right: 16px;
+}
+.marginTop8{
+    margin-top: 16px;
+}
+.relative{
+    position: relative;
+}
+.hamburgerContainer{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;    
+    background-color: #474747;
+    color: #fff;
+    height: calc(100vh - 53px);
+    width: 100vw;
+    top: 53px;
+    left: -100vw;
+    animation: slideIn 0.3s linear forwards;
+}
+
+@keyframes slideIn {
+    0% {
+        left: -100vw;
+    }
+    100% {
+        left: 0;
+    }
+}
+
+@keyframes slideOut {
+    0% {
+        left: 0;
+    }
+    100% {
+        left: -100vw;
+    }
+}
+
+.hidden {
+    animation: slideOut 0.3s linear forwards;
+}
+.width100Per{
+    width: 100%;
+}
+.hamburgerElementContainer{
+    display: flex;
+    margin-top: 28px;
+    align-items: center;
+}
+.justifyBetween {
+    justify-content: space-between;
+}
+.title{
+    display: flex;
+    align-items: center;
+    opacity: 0.7;
+}
+.elementTag{
+    margin-left: 16px;
+}
+.hamburgerElement{
+    margin-left: 8px;
+}
+.input{
+    background-color: #474747;
+    border: none;
+    width: calc(100vw - 32px);
+    color: #fff;
+    border-bottom: 1px solid grey;
+    padding: 16px 16px;
+    outline-color: currentcolor;
+    
+}
+
+
+/* For webkit browsers (Chrome, Safari, etc.) */
+input::-webkit-input-placeholder {
+    color: fff;
+}
+
+/* For Firefox */
+input::-moz-placeholder {
+    color: fff;
+}
+
+/* For Internet Explorer 10+ */
+input:-ms-input-placeholder {
+    color: fff;
+}
+
+/* For older Edge */
+input::-ms-input-placeholder {
+    color: fff;
+}
+.searchIcon{
+    position: absolute;
+    right: 16px;
+}
+.separator{
+    height: 1px;
+    width: 100%;
+    margin-top: 28px;
+    border-bottom: 1px solid #ffffff33;
+}
+.overflowHidden{
+    overflow: hidden;
+}
+
